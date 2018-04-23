@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--android:stretchColumns="1">-->
+
+
+
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/difficultyText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:text="Difficulty: Easy" />
+
+        <TextView
+            android:id="@+id/matchCounterText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:text="Matches Left: 3"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/moveCounterText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Moves Made: 0"
+            android:textSize="20sp" />
+
+    </TableRow>
+
+    <TableRow>
+
+
+        <ImageButton
+            android:id="@+id/card0Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:alpha="1"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:cropToPadding="false"
+            android:onClick="onCardClick"
+            android:src="@drawable/card_back" />
+        <ImageButton
+            android:id="@+id/card1Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:alpha="1"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:cropToPadding="false"
+            android:onClick="onCardClick"
+            android:src="@drawable/card_back" />
+
+        <ImageButton
+            android:id="@+id/card2Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:alpha="1"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:cropToPadding="false"
+            android:onClick="onCardClick"
+            android:src="@drawable/card_back" />
+
+
+    </TableRow>
+
+
+    <TableRow>
+
+        <ImageButton
+            android:id="@+id/card3Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:alpha="1"
+            android:cropToPadding="false"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:onClick="onCardClick"
+            android:src="@drawable/card_back" />
+        <ImageButton
+            android:id="@+id/card4Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:alpha="1"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:cropToPadding="false"
+            android:onClick="onCardClick"
+            android:src="@drawable/card_back" />
+
+        <ImageButton
+            android:id="@+id/card5Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:alpha="1"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:cropToPadding="false"
+            android:onClick="onCardClick"
+            android:src="@drawable/card_back" />
+
+
+
+    </TableRow>
+
+
+</TableLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,369 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="0dp"
+        android:padding="0dp">
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/difficultyText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="Difficulty: Hard"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/card0Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:alpha="1"
+                android:cropToPadding="false"
+                android:onClick="onCardClick"
+                android:padding="2dp"
+                android:src="@drawable/card_back" />
+
+            <ImageButton
+                android:id="@+id/card2Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:alpha="1"
+                android:cropToPadding="false"
+                android:onClick="onCardClick"
+                android:padding="2dp"
+                android:src="@drawable/card_back" />
+
+            <ImageButton
+                android:id="@+id/card3Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:alpha="1"
+                android:cropToPadding="false"
+                android:onClick="onCardClick"
+                android:padding="2dp"
+                android:src="@drawable/card_back" />
+
+            <ImageButton
+                android:id="@+id/card4Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:alpha="1"
+                android:cropToPadding="false"
+                android:onClick="onCardClick"
+                android:padding="2dp"
+                android:src="@drawable/card_back" />
+
+            <ImageButton
+                android:id="@+id/card5Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:alpha="1"
+                android:cropToPadding="false"
+                android:onClick="onCardClick"
+                android:padding="2dp"
+                android:src="@drawable/card_back" />
+
+            <ImageButton
+                android:id="@+id/card6Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:alpha="1"
+                android:cropToPadding="false"
+                android:onClick="onCardClick"
+                android:padding="2dp"
+                android:src="@drawable/card_back" />
+
+
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/filler1Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text=""
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/card7Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:alpha="1"
+                android:cropToPadding="false"
+                android:onClick="onCardClick"
+                android:padding="2dp"
+                android:src="@drawable/card_back" />
+
+            <ImageButton
+                android:id="@+id/card8Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:alpha="1"
+                android:cropToPadding="false"
+                android:onClick="onCardClick"
+                android:padding="2dp"
+                android:src="@drawable/card_back" />
+
+            <ImageButton
+                android:id="@+id/card9Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:alpha="1"
+                android:cropToPadding="false"
+                android:onClick="onCardClick"
+                android:padding="2dp"
+                android:src="@drawable/card_back" />
+
+            <ImageButton
+                android:id="@+id/card10Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:alpha="1"
+                android:cropToPadding="false"
+                android:onClick="onCardClick"
+                android:padding="2dp"
+                android:src="@drawable/card_back" />
+
+            <ImageButton
+                android:id="@+id/card11Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:alpha="1"
+                android:cropToPadding="false"
+                android:onClick="onCardClick"
+                android:padding="2dp"
+                android:src="@drawable/card_back" />
+
+            <ImageButton
+                android:id="@+id/card12Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:alpha="1"
+                android:cropToPadding="false"
+                android:onClick="onCardClick"
+                android:padding="2dp"
+                android:src="@drawable/card_back" />
+
+            <TextView
+                android:id="@+id/matchCounterText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="1dp"
+                android:text="Matches Left: 12"
+                android:textSize="20sp" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/filler2Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text=""
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/card13Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:alpha="1"
+                android:cropToPadding="false"
+                android:onClick="onCardClick"
+                android:padding="2dp"
+                android:src="@drawable/card_back" />
+
+            <ImageButton
+                android:id="@+id/card14Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:alpha="1"
+                android:cropToPadding="false"
+                android:onClick="onCardClick"
+                android:padding="2dp"
+                android:src="@drawable/card_back" />
+
+            <ImageButton
+                android:id="@+id/card15Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:alpha="1"
+                android:cropToPadding="false"
+                android:onClick="onCardClick"
+                android:padding="2dp"
+                android:src="@drawable/card_back" />
+
+            <ImageButton
+                android:id="@+id/card16Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:alpha="1"
+                android:cropToPadding="false"
+                android:onClick="onCardClick"
+                android:padding="2dp"
+                android:src="@drawable/card_back" />
+
+            <ImageButton
+                android:id="@+id/card17Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:alpha="1"
+                android:cropToPadding="false"
+                android:onClick="onCardClick"
+                android:padding="2dp"
+                android:src="@drawable/card_back" />
+
+            <ImageButton
+                android:id="@+id/card18Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:alpha="1"
+                android:cropToPadding="false"
+                android:onClick="onCardClick"
+                android:padding="2dp"
+                android:src="@drawable/card_back" />
+
+
+            <TextView
+                android:id="@+id/moveCounterText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Moves Made: 0"
+                android:textSize="20sp" />
+
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/filler3Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text=""
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/card19Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:alpha="1"
+                android:cropToPadding="false"
+                android:onClick="onCardClick"
+                android:padding="2dp"
+                android:src="@drawable/card_back" />
+
+            <ImageButton
+                android:id="@+id/card20Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:alpha="1"
+                android:cropToPadding="false"
+                android:onClick="onCardClick"
+                android:padding="2dp"
+                android:src="@drawable/card_back" />
+
+            <ImageButton
+                android:id="@+id/card21Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:alpha="1"
+                android:cropToPadding="false"
+                android:onClick="onCardClick"
+                android:padding="2dp"
+                android:src="@drawable/card_back" />
+
+            <ImageButton
+                android:id="@+id/card22Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:alpha="1"
+                android:cropToPadding="false"
+                android:onClick="onCardClick"
+                android:padding="2dp"
+                android:src="@drawable/card_back" />
+
+            <ImageButton
+                android:id="@+id/card23Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:alpha="1"
+                android:cropToPadding="false"
+                android:onClick="onCardClick"
+                android:padding="2dp"
+                android:src="@drawable/card_back" />
+
+            <ImageButton
+                android:id="@+id/card1Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:alpha="1"
+                android:cropToPadding="false"
+                android:onClick="onCardClick"
+                android:padding="2dp"
+                android:src="@drawable/card_back" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
